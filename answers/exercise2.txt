@@ -1,0 +1,24 @@
+amanda@amanda:~$ docker run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+f3db1cd94078: Pull complete
+06e9d71331fb: Pull complete
+f79afc4bbefe: Download complete
+Digest: sha256:2260313b31c8c011cd2eebe728008efac1b3982be73eb71348ea2648d2c0e09b
+Status: Downloaded newer image for ubuntu:latest
+root@4393c81f74a4:/# ls
+bin   dev  home  lib64  mnt  proc  run   srv  tmp  var
+boot  etc  lib   media  opt  root  sbin  sys  usr
+root@4393c81f74a4:/# cd usr
+root@4393c81f74a4:/usr# ls
+bin    include  lib64    local  share
+games  lib      libexec  sbin   src
+root@4393c81f74a4:/usr# cd src
+root@4393c81f74a4:/usr/src# ls
+root@4393c81f74a4:/usr/src# mkdir app
+root@4393c81f74a4:/usr/src# cd app
+root@4393c81f74a4:/usr/src/app# touch index.js
+root@4393c81f74a4:/usr/src/app# ls
+index.js
+root@4393c81f74a4:/usr/src/app# exit
+exit
