@@ -1,0 +1,1 @@
+Link to fullstack app for exercises 22-23: https://github.com/amandauppgard/blogapp-containers
